@@ -27,6 +27,30 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+```Truth-functions can be arranged in series.
+   That is the foundation of the theory of probability
+5.101  The truth-functions of a given number of elementary
+       propositions can always be set out in a schema of the
+       following kind:
+       (T T T T) (p, q) Tautology (If p then p, and if q then q.) (p ⊃ p . q ⊃ q)
+       (F T T T) (p, q) In words: Not both p and q. (∼(p . q))
+       (T F T T) (p, q) ,, ,, : If q then p. (q ⊃ p)
+       (T T F T) (p, q) ,, ,, : If p then q. (p ⊃ q)
+       (T T T F) (p, q) ,, ,, : p or q. (p v q)
+       (F F T T) (p, q) ,, ,, : Not q. (∼q)
+       (F T F T) (p, q) ,, ,, : Not p. (∼p)
+       (F T T F) (p, q) ,, ,, : p or q, but not both. (p . ∼q : v : q . ∼p)
+       (T F F T) (p, q) ,, ,, : If p then q, and if q then p. (p ≡ q)
+       (T F T F) (p, q) ,, ,, : p
+       (T T F F) (p, q) ,, ,, : q
+       (F F F T) (p, q) ,, ,, : Neither p nor q. (∼P .~q or pq)
+       (F F T F) (p, q) ,, ,, : p and not q. (p . ~q)
+       (F T F F) (p, q) ,, ,, : q and not p. (q . ∼p)
+       (T F F F) (p, q) ,, ,, : q and p. (q . p)
+       (F F F F) (p, q) Contradiction (p and not p, and q and not q.) (p . ∼p . q . ∼q)
+
+```
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cseajay/cseajay.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
